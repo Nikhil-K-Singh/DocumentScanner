@@ -120,6 +120,13 @@ while True:
     if biggest.size !=0:
         imgWarped=getWarp(img,biggest)
         cv2.imshow("Document Detected", imgWarped)
+        save_file_name = input('''
+        File name to save with .jpg extension
+
+        share the path if dir is to be changed
+        
+        ''')
+        cv2.imwrite(save_file_name,imgWarped)
     else:
         cv2.imshow("Image",img)
   

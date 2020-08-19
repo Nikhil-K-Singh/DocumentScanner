@@ -11,6 +11,5 @@ The detection is peformed considering the view as an image and all information p
 
 ### Future Improvements
 
- - Saving image of the detected document.
- - Converting the image in pdf format.
+- Converting the image in pdf format.
  - Adding OCR and text extraction from the scanned copy.
